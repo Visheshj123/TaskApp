@@ -15,7 +15,7 @@ NodeJS application to create users, login, logout as well as to create, view, an
 
 ### Tasks
 - POST https://damp-oasis-68705.herokuapp.com/tasks, takes in { completed: bool, description: string }
-- GET Tasks  https://damp-oasis-68705.herokuapp.com/tasks, accepts query strings ?createdAt_(asc | desc, ?completed=( true | false), ?limit, ?skip
+- GET Tasks  https://damp-oasis-68705.herokuapp.com/tasks, accepts query strings ?createdAt_(asc | desc), ?completed=( true | false), ?limit, ?skip
 - GET Tasks by ID https://damp-oasis-68705.herokuapp.com/tasks/:id
 - PATCH https://damp-oasis-68705.herokuapp.com/tasks/:id
 - DELETE Task https://damp-oasis-68705.herokuapp.com/tasks/:id
